@@ -13,3 +13,11 @@ Luego el punto 4, solo el clonar la carpeta Kivy (no el resto de los pasos.
 
 Enlace instalación oficial RaspBerry Pi Jessie https://kivy.org/doc/stable/installation/installation-rpi.html#manual-installation-on-raspbian-jessie-stretch
 
+Cuando la posicion del cursor esta rotada.
+  
+  sudo nano ~/.kivy/config.ini
+  
+  [input]
+    mouse = mouse
+    hid_%(name)s = probesysfs, provider=hidinput,param=invert_y=0
+
