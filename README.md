@@ -19,5 +19,6 @@ Cuando la posicion del cursor esta rotada.
   
   [input]
     mouse = mouse
+    
     hid_%(name)s = probesysfs, provider=hidinput,param=invert_y=0
 
